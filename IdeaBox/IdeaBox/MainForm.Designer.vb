@@ -25,6 +25,7 @@ Partial Public Class MainForm
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -45,9 +46,19 @@ Partial Public Class MainForm
         Me.Button2.Text = "Button1"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(239, 199)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 0
+        Me.Button3.Text = "Button1"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'MainForm
         '
         Me.ClientSize = New System.Drawing.Size(1272, 521)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
@@ -59,6 +70,7 @@ Partial Public Class MainForm
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 
 #End Region
 
