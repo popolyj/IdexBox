@@ -28,6 +28,7 @@ Partial Public Class MainForm
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -75,9 +76,19 @@ Partial Public Class MainForm
         Me.Button5.Text = "Button5"
         Me.Button5.UseVisualStyleBackColor = True
         '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(22, 237)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(351, 58)
+        Me.Button6.TabIndex = 2
+        Me.Button6.Text = "Button6"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
         'MainForm
         '
         Me.ClientSize = New System.Drawing.Size(1272, 521)
+        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -95,6 +106,7 @@ Partial Public Class MainForm
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Button6 As System.Windows.Forms.Button
 
 #End Region
 
